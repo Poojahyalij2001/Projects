@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(17, 17, 90);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0px 1px 2px blueviolet, 
+                0px 2px 4px blueviolet, 
+                0px 4px 8px blueviolet, 
+                0px 8px 16px blueviolet;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 29px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(100, 100, 200);
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.contact-container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 300px auto 80px; /* Ensure there's space below the navbar */
+    width: 80%; /* Set a width for the container */
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    margin: 10px 0;
+}
+
+.contact-item i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #4CAF50;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}

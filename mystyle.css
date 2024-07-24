@@ -1,0 +1,118 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(17, 17, 90);
+            top: 0;
+                display: inline-flex;
+                justify-content: space-around;
+                align-items: center;
+                height: 50px;
+                width: 100%;
+                position: fixed;
+                z-index: 1;
+                box-shadow: 0px 1px 2px blueviolet, 
+                            0px 2px 4px blueviolet, 
+                            0px 4px 8px blueviolet, 
+                            0px 8px 16px blueviolet;
+              }
+        
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 29px;
+            
+
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(100, 100, 200)
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 23px 0;
+            align-items: center;
+        }
+
+        .firstSection > div {
+            width: 30%;
+            font-size: 2rem;
+        }
+        .leftSection div{
+            font-size: 2rem;
+           
+        }
+        .rightSection img{
+            width: 30%;
+        }
+        .purple{
+            color: blueviolet;
+            
+        }
+    
+        
+        #element{
+            color: blueviolet; 
+        }
+        .button {
+            background-color: #1c87c9;
+            -webkit-border-radius: 60px;
+            border-radius: 60px;
+            border: none;
+            color: #eeeeee;
+            cursor: pointer;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 20px;
+            padding: 5px 15px;
+            text-align: center;
+            text-decoration: none;
+          }
+          @keyframes glowing {
+            0% {
+              background-color:blueviolet;
+              box-shadow: 0 0 5px blueviolet;
+            }
+            50% {
+              background-color: blueviolet;
+              box-shadow: 0 0 20px blueviolet;
+            }
+            100% {
+              background-color:blueviolet;
+              box-shadow: 0 0 5px blueviolet;
+            }
+          }
+          .button {
+            animation: glowing 1300ms infinite;
+          }
+          #mask {
+            filter: drop-shadow(0 0 0.75rem blueviolet);
+          }
+         
+ 
